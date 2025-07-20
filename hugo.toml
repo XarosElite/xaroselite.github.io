@@ -7,7 +7,7 @@ theme = "codey"
   homeSubtitle = "Important links"
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:polingj999@gmail.com"
 
   [[params.social]]
     name = "github"
@@ -15,7 +15,7 @@ theme = "codey"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "www.linkedin.com/in/jacob-poling-497594196"
   [params.portrait]
     path     = "/img/CampingProfile.jpg"
     alt      = "Portrait"
