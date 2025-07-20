@@ -15,7 +15,7 @@ theme = "codey"
 
   [[params.social]]
     name = "linkedin"
-    url  = "www.linkedin.com/in/jacob-poling-497594196"
+    url  = "https://linkedin.com/in/jacob-poling-497594196"
   [params.portrait]
     path     = "/img/CampingProfile.jpg"
     alt      = "Portrait"
