@@ -3,7 +3,24 @@ languageCode = 'en-us'
 title = 'Portfolio'
 theme = "codey"
 
+[params]
+  homeSubtitle = "Important links"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
 
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+  [params.portrait]
+    path     = "/img/CampingProfile.jpg"
+    alt      = "Portrait"
+    maxWidth = "200px"
+ 
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -31,4 +48,4 @@ theme = "codey"
   [[menu.main]]
     identifier = "blog"
     name       = "Projects"
-    url        = "/posts"
+    url        = "/projects"

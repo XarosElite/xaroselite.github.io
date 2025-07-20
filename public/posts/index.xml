@@ -1,45 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Welcome to my life</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>http://192.168.0.25:1313/posts/</link>
         <description>Recent content in Posts on Welcome to my life</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 20 Jul 2025 20:16:03 +0000</lastBuildDate>
+        <atom:link href="http://192.168.0.25:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>My First Post</title>
-            <link>http://localhost:1313/posts/my-first-post/</link>
-            <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+            <link>http://192.168.0.25:1313/posts/my-first-post/</link>
+            <pubDate>Sun, 20 Jul 2025 20:16:03 +0000</pubDate>
             
-            <guid>http://localhost:1313/posts/my-first-post/</guid>
-            <description>&lt;hr&gt;
-&lt;h2 id=&#34;this-is-my-very-first-blog-post&#34;&gt;This is my very first blog post&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;/ul&gt;</description>
-            <content type="html"><![CDATA[<hr>
-<h2 id="this-is-my-very-first-blog-post">This is my very first blog post</h2>
-<ul>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-</ul>
-]]></content>
+            <guid>http://192.168.0.25:1313/posts/my-first-post/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
         </item>
         
     </channel>
