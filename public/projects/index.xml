@@ -16,5 +16,12 @@
       <guid>http://192.168.0.25:1313/projects/my-first-post/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Playhub Project</title>
+      <link>http://192.168.0.25:1313/projects/playhub/</link>
+      <pubDate>Sun, 20 Jul 2025 20:16:03 +0000</pubDate>
+      <guid>http://192.168.0.25:1313/projects/playhub/</guid>
+      <description>&lt;h2 id=&#34;what-was-project-playhub&#34;&gt;What was project playhub?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>
