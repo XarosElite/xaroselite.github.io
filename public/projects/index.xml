@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 20 Jul 2025 20:16:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 21:35:13 +0000</lastBuildDate>
     <atom:link href="http://192.168.0.25:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mynk DB</title>
+      <link>http://192.168.0.25:1313/projects/mynk-db/</link>
+      <pubDate>Sun, 20 Jul 2025 21:35:13 +0000</pubDate>
+      <guid>http://192.168.0.25:1313/projects/mynk-db/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SampleVault</title>
+      <link>http://192.168.0.25:1313/projects/samplevault/</link>
+      <pubDate>Sun, 20 Jul 2025 21:34:18 +0000</pubDate>
+      <guid>http://192.168.0.25:1313/projects/samplevault/</guid>
+      <description></description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://192.168.0.25:1313/projects/my-first-post/</link>
@@ -19,9 +33,9 @@
     <item>
       <title>Playhub Project</title>
       <link>http://192.168.0.25:1313/projects/playhub/</link>
-      <pubDate>Sun, 20 Jul 2025 20:16:03 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 20:16:03 +0000</pubDate>
       <guid>http://192.168.0.25:1313/projects/playhub/</guid>
-      <description>&lt;h2 id=&#34;what-was-project-playhub&#34;&gt;What was project playhub?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;li&gt;it was blah blah&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h1 id=&#34;-project-title-playhub&#34;&gt;🚀 Project Title: Playhub&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;A Modern Gameserver Manager Built off of Docker.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-table-of-contents&#34;&gt;📌 Table of Contents&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#motivation&#34;&gt;Motivation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#goals&#34;&gt;Goals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#tech-stack&#34;&gt;Tech Stack&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#architecture-overview&#34;&gt;Architecture Overview&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#key-features&#34;&gt;Key Features&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#setup-instructions&#34;&gt;Setup Instructions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#screenshots--demos&#34;&gt;Screenshots / Demos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#challenges-faced&#34;&gt;Challenges Faced&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#lessons-learned&#34;&gt;Lessons Learned&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#whats-next&#34;&gt;What&amp;rsquo;s Next?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.0.25:1313/projects/playhub/#links--resources&#34;&gt;Links &amp;amp; Resources&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;🧠 Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
