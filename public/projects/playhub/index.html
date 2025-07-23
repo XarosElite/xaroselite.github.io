@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
 <meta name="description" content="🚀 Project Title: Playhub A Modern Gameserver Manager Built off of Docker.
-📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What&rsquo;s Next? Links &amp; Resources 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.
+📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What&rsquo;s Next? 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.
 " />
 <meta name="keywords" content=", untagged" />
 <meta name="robots" content="noodp" />
@@ -43,16 +43,16 @@
 
   <meta itemprop="name" content="Playhub Project">
   <meta itemprop="description" content="🚀 Project Title: Playhub A Modern Gameserver Manager Built off of Docker.
-📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? Links &amp; Resources 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
+📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
   <meta itemprop="datePublished" content="2024-12-08T20:16:03+00:00">
   <meta itemprop="dateModified" content="2024-12-08T20:16:03+00:00">
-  <meta itemprop="wordCount" content="337">
+  <meta itemprop="wordCount" content="685">
   <meta itemprop="keywords" content="Untagged">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Playhub Project">
   <meta name="twitter:description" content="🚀 Project Title: Playhub A Modern Gameserver Manager Built off of Docker.
-📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? Links &amp; Resources 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
+📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
 
 
 
@@ -60,7 +60,7 @@
   <meta property="og:site_name" content="Welcome to my life">
   <meta property="og:title" content="Playhub Project">
   <meta property="og:description" content="🚀 Project Title: Playhub A Modern Gameserver Manager Built off of Docker.
-📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? Links &amp; Resources 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
+📌 Table of Contents Introduction Motivation Goals Tech Stack Architecture Overview Key Features Setup Instructions Screenshots / Demos Challenges Faced Lessons Learned What’s Next? 🧠 Introduction Playhub is a full stack web application built to be ran and deployed on debian. Once deployed it allows users to get on a web portal and spin up supported game servers to their hearts desire.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -113,7 +113,7 @@
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="/projects">Projects</a></li>
+    <ul class="menu__inner"><li><a href="/projects">Projects</a></li><li><a href="/hobbies">Hobbies</a></li><li><a href="/about/">About</a></li>
     </ul>
 </nav>
 
@@ -162,7 +162,6 @@
 <li><a href="/projects/playhub/#challenges-faced">Challenges Faced</a></li>
 <li><a href="/projects/playhub/#lessons-learned">Lessons Learned</a></li>
 <li><a href="/projects/playhub/#whats-next">What&rsquo;s Next?</a></li>
-<li><a href="/projects/playhub/#links--resources">Links &amp; Resources</a></li>
 </ul>
 <hr>
 <h2 id="introduction">🧠 Introduction</h2>
@@ -212,23 +211,99 @@
   </tbody>
 </table>
 <hr>
-<h2 id="-architecture-overview-architecture-overview">🧱 Architecture Overview {#architecture overview}</h2>
+<h2 id="architecture-overview">🧱 Architecture Overview</h2>
 <p>The Architecture of Playhub is fairly simple. The main components you have are a React front end web app based off of Mantine UI. Which communicates to our Flask Backend API that has access to our Redis Queue to start and check on &ldquo;Jobs&rdquo;. These &ldquo;Jobs&rdquo; interact with docker to then bring up/down containers that host a game server.</p>
 <hr>
 <h2 id="key-features">✨ Key Features</h2>
 <p>Highlight the main features your project supports.</p>
 <ul>
 <li>✅ Real time server CPU/RAM usage updates</li>
-<li>✅ Create a game server (Curretly supports Minecract, Palworld)
-<ul>
-<li>Server Name</li>
-<li>Server Settings</li>
-</ul>
-</li>
+<li>✅ Create a game server (Curretly supports Minecract, Palworld)</li>
 <li>✅ Delete a game server</li>
 <li>✅ Restart a game server</li>
+<li>✅ Deployable as a Systemd Service</li>
+</ul>
+<hr>
+<h2 id="screenshots--demos">📸 Screenshots / Demos</h2>
+<h3 id="come-see-for-yourself">Come See for yourself!</h3>
+<p><img src="/img/PlayhubHome.png" alt="PlayhubHome"></p>
+<ul>
+<li>Here you see the main Dashboard page of playhub</li>
+<li>This is where you can see the load on your system as well as manage your game servers!</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubSystemInfo.png" alt="PlayhubSysInfo"></p>
+<ul>
+<li>The System Info Polls an endpoint every few seconds to report the CPU % load as well as the total RAM usage!</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubAddServer.png" alt="PlayhubAddServer"></p>
+<ul>
+<li>To start a new game server all you have to do is hit the <em><strong>Add Server</strong></em> button and presto! You can start setting up your first game server.</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubServerDrop.png" alt="PlayhubAddServerDrop"></p>
+<ul>
+<li>Right now we only support two types of game servers but hope to support more in the future</li>
+<li>All you have to do is choose the game you want to setup though</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubMinecraftServer.png" alt="PlayhubMiecraftServer"></p>
+<ul>
+<li>After you select your game we allo you to customize it!</li>
+<li>The customization depends on the type of game server but for Minecract you can customize:
+<ul>
+<li>Game Mode</li>
+<li>Server Name</li>
+<li>World Seed</li>
+<li>Max Play Count</li>
+<li>Server Port</li>
+<li>PvP Mode</li>
+<li>Hardcore Mode</li>
+<li>Command Block Enable</li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubMinecraftFilled.png" alt="PlayhubMinecraftFilled"></p>
+<ul>
+<li>Once you fill out what you want you can hit Submit and it will create your game server!</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubPopulatedServers.png" alt="PlayhubPopulatedServers"></p>
+<ul>
+<li>Now on the Main page you should see your server populate and spin up!</li>
+<li>You can see the <em><strong>Name</strong></em>, <em><strong>Type</strong></em>, and <em><strong>State</strong></em> of each server in the list</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubServerExpanded.png" alt="PlayhubServerExpanded"></p>
+<ul>
+<li>You can select and expand any server on the list to see more settings and options for it such as:
+<ul>
+<li>Creation Date</li>
+<li>IP and Port</li>
+<li>Restart</li>
+<li>Delete</li>
+<li>Up/Down Toggle</li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubServerOptions.png" alt="PlayhubServerOptions"></p>
+<ul>
+<li>Right now we only have basic functionality for managing the servers such as restarting, deleting, and bringing up/down the servers.</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubRestart.png" alt="PlayhubRestart"></p>
+<ul>
+<li>When you <em><strong>Restart</strong></em> a server you will see a loading wheel while the server is in the process of being restarted or really any time the container is being changed.</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubDelete.png" alt="PlayhubDelete"></p>
+<ul>
+<li>When deleting a server it was important to us to give the user a warning to make sure they wanted to delete the server as we curretly have no safety to restore this.</li>
+</ul>
+<p><img src="/img/PlayhubDemo/PlayhubToast.png" alt="PlayhubToast"></p>
+<ul>
+<li>When deleting a server or performing any action such as creating, deleting, or restarting you will get a toast notification on completion telling you the task completed correctly</li>
+</ul>
+<hr>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<ul>
 <li></li>
 </ul>
+<hr>
+<h2 id="whats-next">What&rsquo;s Next?</h2>
 <hr>
 
             </div>

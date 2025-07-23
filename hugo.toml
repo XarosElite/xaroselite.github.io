@@ -46,6 +46,14 @@ theme = "codey"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
+    identifier = "aablog"
     name       = "Projects"
     url        = "/projects"
+  [[menu.main]]
+    identifier = "hobbies"
+    name       = "Hobbies"
+    url        = "/hobbies"
+  [[menu.main]]
+    identifier = "zabout"
+    name       = "About"
+    url        = "about/"
