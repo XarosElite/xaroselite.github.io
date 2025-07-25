@@ -4,7 +4,7 @@ title = 'Portfolio'
 theme = "codey"
 
 [params]
-  homeSubtitle = "Important links"
+  # homeSubtitle = "Important links"
   [[params.social]]
     name = "email"
     url  = "mailto:polingj999@gmail.com"

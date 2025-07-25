@@ -10,3 +10,7 @@ tags:
 
 
 Me likey Motorcycles yes mmmmm
+
+
+> [!WARNING]
+> This Blog is a work in progress. Amazing pictures of my Ninja 650 to come...
